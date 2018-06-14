@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.duanc.refreshlayout.SwipyRefreshLayout
+        android:id="@+id/swipyRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:direction="both">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </com.duanc.refreshlayout.SwipyRefreshLayout>
+
+
+        <!-- app:direction = both 代表上啦下滑  top只下滑  bottom 只上啦 -->
+</LinearLayout>

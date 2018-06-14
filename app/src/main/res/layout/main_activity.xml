@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_linear_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性  LinearLayoutManager"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_grid_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="表格  GridLayoutManager"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_staggred_grid_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布流  StaggredGridLayoutManager"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_auto_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动加载 autoload"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_refresh_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="封裝可上拉下拉，只允許上拉或只允許下拉"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>
